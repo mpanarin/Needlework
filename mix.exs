@@ -2,7 +2,7 @@ defmodule Needlework.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/mpanarin/needlework"
-  @version "0.0.1"
+  @version "1.0.0"
 
   def project do
     [

@@ -28,7 +28,7 @@ The [package](https://hex.pm/packages/needlework) can be installed by adding `ne
 ```elixir
 def deps do
   [
-    {:needlework, "~> 0.0.1"}
+    {:needlework, "~> 1.0.0"}
   ]
 end
 ```
