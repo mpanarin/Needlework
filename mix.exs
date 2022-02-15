@@ -11,6 +11,8 @@ defmodule Needlework.MixProject do
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      description: description(),
+      package: package(),
       # Docs
       name: "Needlework",
       source_url: @source_url,
@@ -28,6 +30,21 @@ defmodule Needlework.MixProject do
       extras: [
         "README.md"
       ]
+    ]
+  end
+
+  def description() do
+    """
+    Needlework allows you to "thread" your function returns
+    """
+  end
+
+  def package do
+    [
+      name: :needlework,
+      maintainers: ["Mykhailo Panarin"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => @source_url}
     ]
   end
 
